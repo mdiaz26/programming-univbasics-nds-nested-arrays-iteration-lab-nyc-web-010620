@@ -11,8 +11,7 @@ def join_ingredients(src)
   outer_count = 0
   while outer_count < src.length 
     puts "I love #{src[0]} and #{src[1]} on my pizza"
-    end
-  outer_count += 1 
+    outer_count += 1 
   end
 end
 
