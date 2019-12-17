@@ -10,7 +10,7 @@ def join_ingredients(src)
   new_array = []
   outer_count = 0
   while outer_count < src.length 
-    puts "I love #{src[0]} and #{src[1]} on my pizza"
+    puts "I love #{src[outer_count][0]} and #{src[outer_count][1]} on my pizza"
     outer_count += 1 
   end
 end
