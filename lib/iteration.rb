@@ -45,5 +45,6 @@ def total_even_pairs(src)
     if array_total.even?
       total += array_total
     end
+    outside_counter += 1
   end
 end
