@@ -10,7 +10,9 @@ def join_ingredients(src)
   outer_count = 0
   while outer_count < src.length 
     inner_count = 0 
-    new_array << src[outer_count][inner_count]
+    while inner_count < src[outer_count].length
+      new_array << src[outer_count][inner_count]
+    end
   end
 end
 
